@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+		<TableLayout
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content">
+    		<TableRow
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content" >
+        		<CheckBox
+            		android:id="@+id/oneImageCollageCB"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:checked="true"
+            		android:text="One image" />
+        		<CheckBox
+            		android:id="@+id/fiveImagesCollageCB"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:checked="true"
+            		android:text="Five images" />        
+    		</TableRow>
+    		<TableRow        
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content" >
+        		<CheckBox
+            		android:id="@+id/twoImagesCollageCB"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+           		 	android:checked="true"
+            		android:text="Two images" />
+        		<CheckBox
+            		android:id="@+id/sixImagesCollageCB"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:checked="true"
+            		android:text="Six images" />        
+     		</TableRow>
+     		<TableRow
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content" >
+			<CheckBox
+            		android:id="@+id/threeImagesCollageCB"
+       			    android:layout_width="wrap_content"
+    		        android:layout_height="wrap_content"
+    		        android:checked="true"
+    		        android:text="Three images" />         
+   		    <CheckBox
+  		    	    android:id="@+id/sevenImagesCollageCB"
+   		  	       	android:layout_width="wrap_content"
+   		  	       	android:layout_height="wrap_content"
+      		      	android:checked="true"
+     		       	android:text="Seven images" />		
+     		</TableRow>
+    		<TableRow
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content" >
+				<CheckBox
+            		android:id="@+id/fourImagesCollageCB"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:checked="true"
+            		android:text="Four images" />        
+         		<CheckBox
+            		android:id="@+id/eightImagesCollageCB"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:checked="true"
+            		android:text="Eight images" />
+     		</TableRow>    
+     </TableLayout>		
+
+	<Button
+	    android:id="@+id/okBtn"
+	    android:layout_width="80dp"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"
+	    android:text="OK" />
+
+</LinearLayout>

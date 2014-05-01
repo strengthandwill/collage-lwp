@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Live Wallpapers are accessed via your Wallpaper screen! You can customize your settings there! Getting there is easy, here's how:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical" 
+        android:padding="5dp">        
+	<TextView
+    	    android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="- Return to your Home screen"
+        	android:textAppearance="?android:attr/textAppearanceSmall" />
+		<TextView
+        	android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+        	android:text="- Long-tap in an empty slot"
+        	android:textAppearance="?android:attr/textAppearanceSmall" />
+		<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="- Select Wallpaper from the pop-up"
+        	android:textAppearance="?android:attr/textAppearanceSmall" />
+		<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="- Select the Live Wallpapers category"
+        	android:textAppearance="?android:attr/textAppearanceSmall" />
+		<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="- Select Collage LIVE Wallpaper"
+        	android:textAppearance="?android:attr/textAppearanceSmall" />                
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        android:padding="10dp" >
+		
+		<LinearLayout
+			android:id="@+id/applicationLL"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" 
+        	android:padding="5dp" >
+        	<ImageView
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+           	 	android:src="@drawable/application" />
+        	<TextView
+        	    android:layout_width="wrap_content"
+        	    android:layout_height="match_parent"
+        	    android:gravity="center"
+        	    android:text=" Take me to there =)"
+        	    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    	</LinearLayout>
+		<LinearLayout
+			android:id="@+id/androidRateLL"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content" 
+        	android:padding="5dp" >
+        	<ImageView
+	            android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:src="@drawable/androidrate" />
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="match_parent"
+            	android:gravity="center"
+            	android:text=" Rate the app!"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>    
+
+		<LinearLayout
+        	android:id="@+id/facebookLikeLL"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:padding="5dp" >
+        	<ImageView
+	            android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+    	        android:src="@drawable/facebooklike" />
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="match_parent"
+            	android:gravity="center"
+            	android:text=" Like the Facebook page!"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout> 
+		<LinearLayout
+        	android:id="@+id/rainbowLL"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:padding="5dp" >
+        	<ImageView
+	            android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+    	        android:src="@drawable/rainbow" />
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="match_parent"
+            	android:gravity="center"
+            	android:text=" Please support my game! :D"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>     	
+		<LinearLayout
+        	android:id="@+id/closeLL"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:padding="5dp" >
+        	<ImageView
+	            android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+    	        android:src="@drawable/close" />
+        	<TextView
+            	android:layout_width="wrap_content"
+            	android:layout_height="match_parent"
+            	android:gravity="center"
+            	android:text=" Close"
+            	android:textAppearance="?android:attr/textAppearanceMedium" />
+    	</LinearLayout>     	       
+    </LinearLayout>
+	   
+</LinearLayout>

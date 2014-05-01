@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory
+        android:key="general"
+		android:title="General">
+    	<Preference
+			android:key="path"
+			android:title="Choose folder"/>		
+		<ListPreference
+			android:key="transitionSpeed2"
+			android:title="Transition speed"
+	    	android:defaultValue="60s"
+	    	android:entries="@array/transitionSpeedValues"
+	    	android:entryValues="@array/transitionSpeedValues" />
+		<CheckBoxPreference 
+	    	android:key="hasStatusBar"
+			android:title="Status bar" 
+			android:defaultValue="true" /> 
+		<CheckBoxPreference 
+	    	android:key="isLockTransformation"
+			android:title="Lock transformation" 
+			android:defaultValue="false" />					
+	</PreferenceCategory> 	         
+	<PreferenceCategory
+	    android:key="images"
+		android:title="Images">
+		<Preference
+			android:key="imageNumber"
+			android:title="Number" />	    	    
+		<CheckBoxPreference 
+	    	android:key="scaleImage"
+			android:title="Scale to fit"
+			android:defaultValue="false" />		        
+	</PreferenceCategory>
+	<PreferenceCategory
+	    android:key="border"
+		android:title="Border">
+    	<CheckBoxPreference 
+        	android:key="hasBorder"
+			android:title="Border"
+			android:defaultValue="false" />	    	
+ 		<ListPreference
+			android:key="borderColour"
+			android:title="Colour"
+	    	android:defaultValue="Black"
+	    	android:entries="@array/borderColoursValues"
+	    	android:entryValues="@array/borderColoursValues" />
+ 		<ListPreference
+			android:key="borderThickness"
+			android:title="Thickness"
+	    	android:defaultValue="Medium"
+	    	android:entries="@array/borderThicknessValues"
+	    	android:entryValues="@array/borderThicknessValues" />
+ 	</PreferenceCategory> 	
+	<PreferenceCategory
+	    android:key="others"
+		android:title="Others">	
+	   <Preference
+			android:key="rating"
+			android:title="Rating"
+			android:summary="Please rate the app if you like it, thanks!" />	    		    				    		    	    	
+	   <Preference
+			android:key="contact"
+			android:title="Contact"
+			android:summary="Developed by: Kah Kong" />	    		    				    		    
+	</PreferenceCategory> 	
+</PreferenceScreen>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">Collage Live Wallpaper</string>
+    <string name="wallpaper_description">Automatically create collages as wallpaper!</string>
+    <string-array name="borderColoursValues">
+		<item>Black</item>
+		<item>Blue</item>
+		<item>Cyan</item>
+		<item>Dark Gray</item>
+		<item>Gray</item>
+		<item>Green</item>
+		<item>Light Gray</item>
+		<item>Magenta</item>
+		<item>Red</item>
+		<item>White</item>
+		<item>Yellow</item>
+	</string-array>
+    <string-array name="borderThicknessValues">
+		<item>Thin</item>
+		<item>Medium</item>
+		<item>Thick</item>
+	</string-array>
+    <string-array name="transitionSpeedValues">
+		<item>20s</item>
+		<item>30s</item>
+		<item>40s</item>
+		<item>50s</item>			
+		<item>60s</item>
+		<item>70s</item>
+		<item>80s</item>
+		<item>90s</item>
+		<item>100s</item>			
+		<item>110s</item>
+		<item>120s</item>		
+	</string-array>	
+</resources>
