@@ -1,6 +1,6 @@
 # Collage Live Wallpaper
 
-Collage Live Wallpaper is an android mobile app built to demonstrate how Live Wallpaper can be implemented in Android.  
+Collage Live Wallpaper is an android mobile app that demonstrates how Live Wallpaper can be implemented in Android.  
 
 The mobile app is available at [Google Play].
 
